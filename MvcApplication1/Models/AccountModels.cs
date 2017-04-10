@@ -22,7 +22,7 @@ namespace MvcApplication1.Models
     [Table("UserProfile")]
     public class UserProfile
     {
-        [Key
+        [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string UserName { get; set; }
